@@ -1,0 +1,19 @@
+* text=auto
+
+*.c text
+*.cpp text
+*.cc text
+*.cxx text
+*.h text
+*.hpp text
+*.txt text
+*.md text
+*.csv text
+*.py text
+*.cmake text
+CMakeLists.txt text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary

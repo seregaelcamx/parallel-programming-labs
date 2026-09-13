@@ -1,7 +1,11 @@
+# =====================================
 # Prerequisites
+# =====================================
 *.d
 
+# =====================================
 # Compiled Object files
+# =====================================
 *.slo
 *.lo
 *.o
@@ -16,33 +20,45 @@
 
 # Debugger Files
 *.pdb
+*.dwo
 
+# =====================================
 # Compiled Dynamic libraries
+# =====================================
 *.so
 *.dylib
 *.dll
 *.so.*
 
-
 # Fortran module files
 *.mod
 *.smod
 
+# =====================================
 # Compiled Static libraries
+# =====================================
 *.lai
 *.la
 *.a
 *.lib
 
+# =====================================
 # Executables
+# =====================================
 *.exe
 *.out
 *.app
 
+# =====================================
 # Build directories
+# =====================================
 build/
 Build/
 build-*/
+cmake-build-*/
+out/
+bin/
+lib/
 
 # CMake generated files
 CMakeFiles/
@@ -52,18 +68,77 @@ Makefile
 install_manifest.txt
 compile_commands.json
 
-# Temporary files
+# =====================================
+# IDE and editor files
+# =====================================
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+*.vcxproj.user
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+
+# JetBrains (CLion, IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Other editors
+*.sublime-workspace
+*.sublime-project
+
+# =====================================
+# Package managers
+# =====================================
+vcpkg_installed/
+vcpkg.json
+
+# =====================================
+# Python (for plots and scripts)
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+
+# =====================================
+# Temporary and system files
+# =====================================
 *.tmp
 *.log
 *.bak
 *.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
+# =====================================
+# Test output & cache
+# =====================================
 Testing/
 .cache/
+CTestTestfile.cmake
+
+# =====================================
+# Large data (опционально)
+# =====================================
+# Раскомментируй, если есть большие датасеты:
+# data/*.bin
+# data/*.dat
