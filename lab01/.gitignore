@@ -1,0 +1,4 @@
+@"
+data/
+results/C_*.txt
+"@ | Set-Content -Encoding utf8 .gitignore
