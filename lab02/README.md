@@ -18,10 +18,11 @@
   совпадает при любом числе потоков.
 
 ## Сборка
-
+```
 cd lab02
 cmake -S . -B build
 cmake --build build --config Release -j
+```
 
 (OpenMP подключается через find_package(OpenMP) + цель OpenMP::OpenMP_CXX.)
 
