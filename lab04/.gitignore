@@ -1,0 +1,6 @@
+/build/
+/.venv/
+/data/
+/results/C_*.txt
+/results/.bench-*/
+__pycache__/
