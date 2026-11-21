@@ -1,0 +1,6 @@
+{"n": 200, "p": 2, "ok": true, "max_abs_error": 1.7763568394002505e-14, "scaled_max_error": 8.544883652241104e-16, "rtol": 1e-07, "atol": 1e-09, "status": "passed"}
+{"n": 400, "p": 2, "ok": true, "max_abs_error": 4.973799150320701e-14, "scaled_max_error": 1.7033726313418802e-15, "rtol": 1e-07, "atol": 1e-09, "status": "passed"}
+{"n": 800, "p": 2, "ok": true, "max_abs_error": 9.237055564881302e-14, "scaled_max_error": 2.1871365806408877e-15, "rtol": 1e-07, "atol": 1e-09, "status": "passed"}
+{"n": 1200, "p": 2, "ok": true, "max_abs_error": 1.8474111129762605e-13, "scaled_max_error": 3.237288312590471e-15, "rtol": 1e-07, "atol": 1e-09, "status": "passed"}
+{"n": 1600, "p": 2, "ok": true, "max_abs_error": 2.6290081223123707e-13, "scaled_max_error": 3.934004977475943e-15, "rtol": 1e-07, "atol": 1e-09, "status": "passed"}
+{"n": 2000, "p": 2, "ok": true, "max_abs_error": 2.7000623958883807e-13, "scaled_max_error": 3.4476600602942117e-15, "rtol": 1e-07, "atol": 1e-09, "status": "passed"}

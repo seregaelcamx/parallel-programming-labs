@@ -1,0 +1,11 @@
+build/
+data/A_*.txt
+data/B_*.txt
+results/cluster_*/
+*.out
+*.err
+__pycache__/
+.venv/
+data_regenerated/
+data/
+results/recheck/
